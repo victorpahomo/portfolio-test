@@ -31,13 +31,13 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=368&h=368&q=100"
+              src="https://raw.githubusercontent.com/victorpahomo/portfolio-test/main/public/profile.jpeg?token=GHSAT0AAAAAACIFIF3CRZIFVSC5DBC6VAZAZIUWARA"
               alt="Ricardo portrait"
               width="192"
               height="192"
               quality="95"
               priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              className="h-28 w-28 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
 
@@ -64,8 +64,8 @@ export default function Intro() {
       >
         <span className="font-bold">Hola, soy Víctor Manuel. <br /></span>{" "}
         <span className="font-bold"> Desarrollador Full-stack</span> y estudiante de{" "}
-        <span className="font-bold">Ingeniería Informática.</span> Soy{" "}
-        un loco apasionado por la tecnología y el <span className="italic">Software</span>. Mi énfasis es{" "}
+        <span className="font-bold">Ingeniería Informática.</span> {" "}
+        Loco apasionado por la tecnología y el <span className="italic">Software</span>. Mi énfasis es{" "}
         <span className="underline"> Front-end con React</span>.
       </motion.h1>
 
@@ -97,22 +97,23 @@ export default function Intro() {
           Descarga CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
+        <div className="flex flex-row gap-2">
+          <a
+            className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+            href="https://www.linkedin.com/in/victorpahomo"
+            target="_blank"
+          >
+            <BsLinkedin />
+          </a>
 
-        <a
-          className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://www.linkedin.com/in/victorpahomo"
-          target="_blank"
-        >
-          <BsLinkedin />
-        </a>
-
-        <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com/victorpahomo"
-          target="_blank"
-        >
-          <FaGithubSquare />
-        </a>
+          <a
+            className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+            href="https://github.com/victorpahomo"
+            target="_blank"
+          >
+            <FaGithubSquare />
+          </a>
+        </div>
       </motion.div>
     </section>
   );

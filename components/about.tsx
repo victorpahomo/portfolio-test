@@ -19,30 +19,27 @@ export default function About() {
     >
       <SectionHeading>Conóceme</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        {" "}
+        Me describo como una persona apasionada, meticulosa y con un agudo sentido del{" "}
+        buen gusto. Actualmente, estoy a punto de completar mi título en{" "}
+        <span className="font-medium">Ingeniería Informática</span> y he obtenido{" "}
+        dos certificaciones destacadas en Desarrollo Web (Makaia y Oracle).{" "}
+        <br /><br />
+        <span className="italic">Me encanta la resolución</span>  {" "}
+        de problemas con elegancia y estilo, especialmente en proyectos de 
+        <span className="underline"> React</span>, donde{" "}
+        he acumulado alrededor de 6 meses de experiencia y logrado un impacto significativo.{" "}
+        Contribuyendo de manera clave al desarrollo de interfaces de usuario efectivas y la{" "}
+        implementación de características que mejoran la experiencia del usuario.{" "}
+        Mi conjunto principal de habilidades incluye
+        <span className="font-medium"> React y Java,</span>  y he trabajado también con{" "}
+        Angular, Astro, C#, y .NET.{" "}
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        <span className="italic">Cuando no estoy codeando</span>,
+        disfruto del fútbol, el tiempo en familia y la búsqueda constante de conocimiento en 
+        cosas de mi interés.
       </p>
     </motion.section>
   );

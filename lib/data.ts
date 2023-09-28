@@ -2,9 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import ecommerceImg from "@/public/ecommerce.png";
+import casaroyalImg from "@/public/casaroyal.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import codelmsImg from "@/public/codelms.png";
 
 export const links = [
   {
@@ -34,53 +35,52 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
-  {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    {
+    title: "Mantenimiento WordPress",
+    location: "Madrid, ES",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Monitoreo, diseño, creación de contenido, optimización, configuración, instalación y actualización de plugins y temas.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2018-2019",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Estudios / Certificaciones",
+    location: "Colombia - España",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Ingeniería Informática 4/5 años (Unicauca y UNIR) - Certificación Front-end (Makaia 2022) - Cetificación Back-end (Oracle 2023)",
+    icon: React.createElement(LuGraduationCap),
+    date: "2018-2023",
+  },
+  {
+    title: "Front-end Developer Trainee",
+    location: "Colombia",
+    description:
+      "Planificación, Diseño y ejecución de proyectos Web haciendo uso de tecnologías HTML5,CSS3,JS y librerías modernas como Boostrap, Tailwind, React.js. Consumo de APIS y microservicios.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2022 - 2023",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "CodeLMS",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Proyecto más ambicioso. Full-stack developer. Plataforma académica multirol, posee servicios de inteligencia artificial.",
+    tags: ["React", "Vite js", "Firestore", "Tailwind","Firebase", "Redux","FullCalendar", "OpenAI API"],
+    imageUrl: codelmsImg,
   },
   {
-    title: "rmtDev",
+    title: "Casa Royal",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: "Word Analytics",
+      "Portal de alquiler y venta de propiedades. Rol Front-end Developer, a petición se usó HTML, CSS y JS Vanilla.",
+    tags: ["JS Vanilla", "Webpack", "CSS", "SQL", "API"],
+    imageUrl: casaroyalImg,
+  },  {
+    title: "Delivery App",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Ecommerce con todo tipo de funcionalidades, como Login, Carrito, Historial de Ordenes, Estado de pedido, Pasarela de pago. Rol Front-end developer.",
+    tags: ["React", "TypeScript","Firestore", "Context", "SASS", "Auth0","API"],
+    imageUrl: ecommerceImg,
   },
 ] as const;
 
