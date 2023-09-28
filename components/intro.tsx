@@ -31,8 +31,8 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://raw.githubusercontent.com/victorpahomo/portfolio-test/main/public/profile.jpeg?token=GHSAT0AAAAAACIFIF3CRZIFVSC5DBC6VAZAZIUWARA"
-              alt="Ricardo portrait"
+              src="https://res.cloudinary.com/dxwzyjefd/image/upload/v1695871724/portfolio/sknosmiclvcqgoah97yd.png"
+              alt="Victor portrait"
               width="192"
               height="192"
               quality="95"
